@@ -41,7 +41,7 @@ const advantages = [
   {
     icon: Clock,
     title: '48-Hour Average Turnaround',
-    desc: 'Industry-leading turnaround times keep clients\u2019 products moving through the supply chain without delay.',
+    desc: "Industry-leading turnaround times keep clients' products moving through the supply chain without delay.",
   },
   {
     icon: Layers,

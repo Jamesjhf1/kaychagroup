@@ -32,7 +32,7 @@ export default function Services() {
               <div>
                 <h2 className="text-3xl font-bold text-navy mb-6">Industry-Leading Turnaround</h2>
                 <p className="text-silver-dark leading-relaxed mb-4">
-                  With an average turnaround time of 48 hours, Kaycha delivers results faster than industry averages without compromising analytical rigor. Our PureLIMS&reg; platform automates workflows and eliminates manual bottlenecks.
+                  With an average turnaround time of 48 hours, Kaycha delivers results faster than industry averages without compromising analytical rigor. Our PureLIMS\u00ae platform automates workflows and eliminates manual bottlenecks.
                 </p>
                 <p className="text-silver-dark leading-relaxed">
                   Electronic COA delivery ensures results reach clients immediately upon approval, keeping products moving through the supply chain.

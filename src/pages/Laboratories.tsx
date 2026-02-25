@@ -41,7 +41,7 @@ export default function Laboratories() {
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold text-navy mb-6">Standardized Excellence</h2>
               <p className="text-silver-dark text-lg leading-relaxed">
-                Every Kaycha laboratory operates under standardized SOPs, shares access to our PureLIMS&reg; platform, and maintains ISO 17025 accreditation. This ensures consistent, reliable results regardless of which location serves your market.
+                Every Kaycha laboratory operates under standardized SOPs, shares access to our PureLIMS\u00ae platform, and maintains ISO 17025 accreditation. This ensures consistent, reliable results regardless of which location serves your market.
               </p>
             </div>
           </ScrollReveal>
