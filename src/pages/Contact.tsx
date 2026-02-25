@@ -72,6 +72,7 @@ export default function Contact() {
                 <ContactForm />
               </ScrollReveal>
             </div>
+
             <div>
               <ScrollReveal delay={150}>
                 <div className="bg-gray-50 rounded-xl p-6 mb-6">
@@ -80,7 +81,10 @@ export default function Contact() {
                     {emails.map((e) => (
                       <div key={e.email}>
                         <p className="text-xs text-silver uppercase tracking-wider mb-1">{e.label}</p>
-                        <a href={`mailto:${e.email}`} className="text-navy font-medium text-sm hover:text-gold transition-colors">
+                        <a
+                          href={`mailto:${e.email}`}
+                          className="text-navy font-medium text-sm hover:text-gold transition-colors"
+                        >
                           {e.email}
                         </a>
                       </div>
@@ -88,6 +92,7 @@ export default function Contact() {
                   </div>
                 </div>
               </ScrollReveal>
+
               <ScrollReveal delay={250}>
                 <div className="bg-gray-50 rounded-xl p-6 overflow-hidden">
                   <h3 className="text-lg font-semibold text-navy mb-4">Headquarters</h3>

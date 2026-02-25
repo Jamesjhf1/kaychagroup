@@ -64,7 +64,7 @@ export default function Technology() {
             <div className="max-w-3xl mb-16">
               <h2 className="text-3xl font-bold text-navy mb-6">Platform Overview</h2>
               <p className="text-silver-dark text-lg leading-relaxed mb-4">
-                PureLIMS&reg; is Kaycha Group's proprietary LIMS, purpose-built for cannabis analytical testing at scale. Unlike generic off-the-shelf solutions, PureLIMS was designed from the ground up to address the unique regulatory, operational, and data management requirements of multi-state cannabis testing.
+                PureLIMS\u00ae is Kaycha Group's proprietary LIMS, purpose-built for cannabis analytical testing at scale. Unlike generic off-the-shelf solutions, PureLIMS was designed from the ground up to address the unique regulatory, operational, and data management requirements of multi-state cannabis testing.
               </p>
               <p className="text-silver-dark text-lg leading-relaxed">
                 Built on an API-first architecture, PureLIMS integrates seamlessly with analytical instruments, state regulatory systems, and client platforms \u2014 creating an end-to-end digital workflow from sample intake through certified result delivery.
@@ -133,7 +133,7 @@ export default function Technology() {
               <div className="flex-1 text-center lg:text-left">
                 <h3 className="text-2xl font-bold text-navy mb-3">AI-Powered Analytics</h3>
                 <p className="text-silver-dark leading-relaxed">
-                  Kaycha is actively developing AI-powered quality assurance and predictive analytics capabilities within PureLIMS&reg;, leveraging our proprietary dataset of over one million tested samples to enhance accuracy, detect anomalies, and drive operational efficiency.
+                  Kaycha is actively developing AI-powered quality assurance and predictive analytics capabilities within PureLIMS\u00ae, leveraging our proprietary dataset of over one million tested samples to enhance accuracy, detect anomalies, and drive operational efficiency.
                 </p>
               </div>
               <Link
