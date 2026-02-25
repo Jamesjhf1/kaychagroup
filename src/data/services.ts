@@ -45,7 +45,7 @@ export const services: Service[] = [
   {
     id: 'heavy-metals',
     name: 'Heavy Metals',
-    description: 'Quantitative analysis of lead, arsenic, mercury, and cadmium — critical contaminants that can accumulate in cannabis through soil and water.',
+    description: 'Quantitative analysis of lead, arsenic, mercury, and cadmium \u2014 critical contaminants that can accumulate in cannabis through soil and water.',
     methodology: 'ICP-MS (Inductively Coupled Plasma Mass Spectrometry)',
     icon: Atom,
   },
@@ -59,7 +59,7 @@ export const services: Service[] = [
   {
     id: 'mycotoxins',
     name: 'Mycotoxin Testing',
-    description: 'Detection and quantification of aflatoxins and ochratoxin A — dangerous fungal metabolites that pose serious health risks.',
+    description: 'Detection and quantification of aflatoxins and ochratoxin A \u2014 dangerous fungal metabolites that pose serious health risks.',
     methodology: 'LC-MS/MS',
     icon: AlertTriangle,
   },
