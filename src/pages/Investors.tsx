@@ -127,17 +127,32 @@ export default function Investors() {
               {
                 icon: Scale,
                 title: 'Scale Advantage',
-                points: ['10 laboratories \u2014 more than any competitor', 'Centralized procurement reduces COGS', 'Shared R&D and method development', 'Cross-state operational best practices'],
+                points: [
+                  '10 laboratories \u2014 more than any competitor',
+                  'Centralized procurement reduces COGS',
+                  'Shared R&D and method development',
+                  'Cross-state operational best practices',
+                ],
               },
               {
                 icon: Cpu,
                 title: 'Technology Moat',
-                points: ['Proprietary PureLIMS\u00ae platform', 'High switching costs for embedded clients', 'Automated workflows reduce labor intensity', 'API-first architecture enables integrations'],
+                points: [
+                  'Proprietary PureLIMS\u00ae platform',
+                  'High switching costs for embedded clients',
+                  'Automated workflows reduce labor intensity',
+                  'API-first architecture enables integrations',
+                ],
               },
               {
                 icon: Target,
                 title: 'Regulatory Positioning',
-                points: ['Licensed in 9 states across regulatory frameworks', 'ISO 17025 at every location', 'Metrc validated integrator status', 'Deep relationships with state regulators'],
+                points: [
+                  'Licensed in 9 states across regulatory frameworks',
+                  'ISO 17025 at every location',
+                  'Metrc validated integrator status',
+                  'Deep relationships with state regulators',
+                ],
               },
             ].map((section, i) => (
               <ScrollReveal key={section.title} delay={i * 100}>
@@ -181,10 +196,16 @@ export default function Investors() {
                 </p>
                 <div className="flex items-center gap-3 text-silver-light mb-4">
                   <Mail size={18} className="text-gold" />
-                  <a href="mailto:investors@kaychagroup.com" className="hover:text-white transition-colors">investors@kaychagroup.com</a>
+                  <a href="mailto:investors@kaychagroup.com" className="hover:text-white transition-colors">
+                    investors@kaychagroup.com
+                  </a>
                 </div>
                 <div className="pt-4 border-t border-white/10">
-                  <p className="text-silver text-sm">Kaycha Group Inc.<br />3451 Commerce Pkwy<br />Miramar, FL 33025</p>
+                  <p className="text-silver text-sm">
+                    Kaycha Group Inc.<br />
+                    3451 Commerce Pkwy<br />
+                    Miramar, FL 33025
+                  </p>
                 </div>
               </div>
             </ScrollReveal>
